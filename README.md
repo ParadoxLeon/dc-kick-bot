@@ -9,7 +9,7 @@ To run the bot, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/ParadoxLeon/dc-kick-bot.git
-   cd discord-kick-bot
+   cd dc-kick-bot
 2. **Install dependencies:**
    ```bash
    apt install python3-discord
