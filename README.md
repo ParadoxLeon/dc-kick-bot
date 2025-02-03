@@ -19,7 +19,6 @@ To run the bot, follow these steps:
    - Ensure you have MySQL or SQLite installed and configured.
    - Update main.py with your database credentials.
 4. **Run:**
-   Run with
    ```bash
    python3 main.py
 
