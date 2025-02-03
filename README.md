@@ -8,7 +8,7 @@ To run the bot, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/discord-kick-bot.git
+   git clone https://github.com/ParadoxLeon/dc-kick-bot.git
    cd discord-kick-bot
 2. **Install dependencies:**
    ```bash
@@ -18,6 +18,13 @@ To run the bot, follow these steps:
 3. **Set up the database:**
    - Ensure you have MySQL or SQLite installed and configured.
    - Update main.py with your database credentials.
+4. **Run:**
+   Run with
+   ```bash
+   python3 main.py
+
+or with a systemd unit.
+
 
 ## Configuration
    - **Set autokick to false in main.py for first time use**
