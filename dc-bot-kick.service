@@ -1,0 +1,15 @@
+[Unit]
+Description=Discord Auto-Kick Bot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/dc-kick-db
+ExecStart=python3 /root/dc-kick-db/main.py
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/dc-kick-bot.log
+StandardError=append:/var/log/dc-kick-bot.log
+
+[Install]
+WantedBy=multi-user.target
