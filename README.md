@@ -19,6 +19,8 @@ To run the bot, follow these steps:
    - Ensure you have MySQL or SQLite installed and configured.
    - Update main.py with your database credentials.
 4. **Run:**
+   
+   **Set autokick to false in main.py for first time use**
    ```bash
    python3 main.py
 
@@ -26,6 +28,6 @@ or with a systemd unit.
 
 
 ## Configuration
-   - **Set autokick to false in main.py for first time use**
+   - Set DB to SQlite or MYSQL
    - Set you're Bot token obtained from the Discord Developer Portal.
    - Ensure your bot has the necessary permissions (e.g., Kick Members) in Discord to perform kicks.
